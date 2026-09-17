@@ -24,9 +24,10 @@ architecture-beta
         service tc[TT&C] in projects
 
     group ma[Arm]
-            service elec_ma[Electrical Arm Member] in ma
-            service mech_ma[Mechanical Arm Member] in ma
-            service soft_ma[Software Arm Member] in ma
+        service elec_ma[Electrical Arm Member] in ma
+        service mech_ma[Mechanical Arm Member] in ma
+        service soft_ma[Software Arm Member] in ma
+
     align row elec_man mech_man soft_man
     align column au dr mf pw tc
     align column ma_lead au_lead dr_lead mf_lead pw_lead tc_lead
