@@ -2,39 +2,35 @@
 ---
 title: SCRB Matrix Organization
 ---
-graph TD;
-  PM[Project Manager]
-  SL[Systems Lead]
-  subgraph Disciplines
-    elec[Electrical Members]
-    mech[Mechanical Members]
-    soft[Software Members]
-  end
-  subgraph Project Leads
-    ma_l[Arm Lead]
-    au_l[Autonomy Lead]
-    dr_l[Drone Lead]
-    mf_l[Mobility & Frame Lead]
-    pw_l[Power Lead]
-    sp_l[Science Payload Lead]
-    tc_l[TT&C Lead]
-  end
-  subgraph Projects
-    ma[Arm Project]
-    au[Autonomy Project]
-    dr[Drone Project]
-    mf[Mobility & Frame Project]
-    pw[Power Project]
-    sp[Science Payload Project]
-    tc[TT&C Project]
-  end
-  subgraph Arm Project
-    ma_l
-    elec
-  end
-  PM --> SL
-  PM --> Project Leads
-  SL --> Project Leads
-  
-  
+graph LR
+    subgraph Matrix [Matrix Organization Structure]
+        direction TB
+
+        %% Columns / Functions
+        subgraph Col1 [Engineering]
+            Dev1[Engineer - Proj A]
+            Dev2[Engineer - Proj B]
+        end
+
+        subgraph Col2 [Design]
+            Des1[Designer - Proj A]
+            Des2[Designer - Proj B]
+        end
+
+        %% Project Rows (Visual Grouping)
+        PM_A[Project A Manager]
+        PM_B[Project B Manager]
+
+        %% Functional Reporting
+        FM_Eng[Engineering Head] ==> Dev1
+        FM_Eng ==> Dev2
+        FM_Des[Design Head] ==> Des1
+        FM_Des ==> Des2
+
+        %% Project Reporting
+        PM_A -.-> Dev1
+        PM_A -.-> Des1
+        PM_B -.-> Dev2
+        PM_B -.-> Des2
+    end
 ```
