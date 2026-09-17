@@ -18,7 +18,7 @@ architecture-beta
     group elec_mem[Electrical Members]
         service temp[temp] in elec_mem
 
-    group projects[Projects] in disciplines
+    group projects[Projects]
         service ma[Arm] in projects
         service au[Autonomy] in projects
         service dr[Drone] in projects
