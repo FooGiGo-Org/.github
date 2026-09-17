@@ -15,11 +15,11 @@ architecture-beta
         service pw_lead[Power Lead] in leads
         service tc_lead[TT&C Lead] in leads
 
-    group elec_mem[Electrical Members]
-        service temp[temp] in elec_mem
-
     group projects[Projects]
-        service ma[Arm] in projects
+        group ma[Arm] in projects
+            service elec_ma[Electrical Arm Member] in ma
+            service mech_ma[Mechanical Arm Member] in ma
+            service soft_ma[Software Arm Member] in ma
         service au[Autonomy] in projects
         service dr[Drone] in projects
         service mf[Mobility & Frame] in projects
