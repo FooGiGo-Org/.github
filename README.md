@@ -28,4 +28,13 @@ graph TD;
     sp[Science Payload Project]
     tc[TT&C Project]
   end
+  subgraph Arm Project
+    ma_l
+    elec
+  end
+  PM --> SL
+  PM --> Project Leads
+  SL --> Project Leads
+  
+  
 ```
