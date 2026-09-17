@@ -17,11 +17,26 @@ architecture-beta
         service tc_lead[TT&C Lead] in leads
 
     group projects[Projects]
-        service au[Autonomy] in projects
-        service dr[Drone] in projects
-        service mf[Mobility & Frame] in projects
-        service pw[Power] in projects
-        service tc[TT&C] in projects
+    group au[Autonomy] in projects
+        service elec_au[Electrical Arm Member] in au
+        service mech_au[Mechanical Arm Member] in au
+        service soft_au[Software Arm Member] in au
+    group dr[Drone] in projects
+        service elec_dr[Electrical Arm Member] in dr
+        service mech_dr[Mechanical Arm Member] in dr
+        service soft_dr[Software Arm Member] in dr
+    group mf[Mobility & Frame] in projects
+        service elec_mf[Electrical Arm Member] in mf
+        service mech_mf[Mechanical Arm Member] in mf
+        service soft_mf[Software Arm Member] in mf
+    group pw[Power] in projects
+        service elec_pw[Electrical Arm Member] in pw
+        service mech_pw[Mechanical Arm Member] in pw
+        service soft_pw[Software Arm Member] in pw
+    group tc[TT&C] in projects
+        service elec_tc[Electrical Arm Member] in tc
+        service mech_tc[Mechanical Arm Member] in tc
+        service soft_tc[Software Arm Member] in tc
 
     group ma[Arm] in projects
         service elec_ma[Electrical Arm Member] in ma
