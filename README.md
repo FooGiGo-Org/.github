@@ -24,11 +24,11 @@ architecture-beta
         service dr[Drone] in projects
         service mf[Mobility & Frame] in projects
         service pw[Power] in projects
-        service tc[TT&C] in projects 
+        service tc[TT&C] in projects
     align row elec mech soft
     align column ma au dr mf pw tc
     align column ma_lead au_lead dr_lead mf_lead pw_lead tc_lead
-    ma_lead --> ma
+    ma_lead:R --> L:ma
     
 
 ```
