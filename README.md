@@ -8,7 +8,7 @@ architecture-beta
         service mech_man[Mechanical Manager] in managers
         service soft_man[Software Manager] in managers
     group leads[Project Leads]
-        service ma_lead[Arm Lead] is leads
+        service ma_lead[Arm Lead] in leads
         service au_lead[Autonomy Lead] in leads
         service dr_lead[Drone Lead] in leads
         service mf_lead[Mobility & Frame Lead] in leads
