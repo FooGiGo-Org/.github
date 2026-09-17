@@ -45,7 +45,6 @@ architecture-beta
 
     align row elec_ma mech_ma soft_ma
     align row elec_man mech_man soft_man
-    align column au dr mf pw tc
     align column ma_lead au_lead dr_lead mf_lead pw_lead tc_lead
     ma_lead:R --> L:elec_ma{group}
     
