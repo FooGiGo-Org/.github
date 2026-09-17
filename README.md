@@ -9,5 +9,5 @@ architecture-beta
         service soft[Software] in disciplines
 
     group projects[Projects]
-        service arm[Arm] in Projects
+        service arm[Arm] in projects
 ```
