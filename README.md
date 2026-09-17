@@ -23,7 +23,7 @@ architecture-beta
         service pw[Power] in projects
         service tc[TT&C] in projects
 
-    group ma[Arm]
+    group ma[Arm] in projects
         service elec_ma[Electrical Arm Member] in ma
         service mech_ma[Mechanical Arm Member] in ma
         service soft_ma[Software Arm Member] in ma
