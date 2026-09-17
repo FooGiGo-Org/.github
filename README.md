@@ -9,7 +9,7 @@ architecture-beta
         service soft[Software] in disciplines
 
     group projects[Projects] in disciplines
-        service ma[Arm] in projects
+        service ma()[Arm] in projects
         service au[Autonomy] in projects
         service dr[Drone] in projects
         service mf[Mobility & Frame] in projects
