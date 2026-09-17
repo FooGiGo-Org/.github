@@ -25,7 +25,7 @@ architecture-beta
         service mf[Mobility & Frame] in projects
         service pw[Power] in projects
         service tc[TT&C] in projects
-    align row elec mech soft
+    align row elec_man mech_man soft_man
     align column ma au dr mf pw tc
     align column ma_lead au_lead dr_lead mf_lead pw_lead tc_lead
     ma_lead:R --> L:ma
