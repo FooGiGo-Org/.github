@@ -19,7 +19,7 @@ graph TD;
     sp_l[Science Payload Lead]
     tc_l[TT&C Lead]
   end
-  subgraphs Projects
+  subgraph Projects
     ma[Arm Project]
     au[Autonomy Project]
     dr[Drone Project]
