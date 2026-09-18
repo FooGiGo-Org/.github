@@ -9,7 +9,9 @@ block
         man["Department Managers"]:3
         man_elec man_mech man_soft
     end
-    space:3
+    block:empty:3
+        space
+    end
     block:meme:1
         columns 1
         uct("test")
