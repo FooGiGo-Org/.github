@@ -5,7 +5,7 @@ title: SCRB Matrix Organization
 block
     columns 3
     block:test:3
-        %%columns auto (default)
+        columns 3
         man["Department Managers"]:3
         man_elec man_mech man_soft
     end
