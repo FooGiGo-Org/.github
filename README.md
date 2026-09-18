@@ -37,14 +37,20 @@ architecture-beta
         service elec_tc[Electrical Arm Member] in tc
         service mech_tc[Mechanical Arm Member] in tc
         service soft_tc[Software Arm Member] in tc
-
     group ma[Arm] in projects
         service elec_ma[Electrical Arm Member] in ma
         service mech_ma[Mechanical Arm Member] in ma
         service soft_ma[Software Arm Member] in ma
 
     align row elec_ma mech_ma soft_ma
+    align row elec_au mech_au soft_au
+    align row elec_dr mech_dr soft_dr
+    align row elec_mf mech_mf soft_mf
+    align row elec_pw mech_pw soft_pw
+    align row elec_tc mech_tc soft_tc
     align row elec_man mech_man soft_man
+    align column elec_ma elec_au elec_dr elec_mf elec_mf elec_pw elec_tc elec_man
+
     align column ma_lead au_lead dr_lead mf_lead pw_lead tc_lead
     ma_lead:R --> L:elec_ma{group}
     
