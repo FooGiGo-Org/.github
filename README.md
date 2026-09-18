@@ -10,6 +10,7 @@ block
         man_elec man_mech man_soft
     end
     block:empty:3
+        %% columns auto (default)
         space
     end
     block:meme:1
