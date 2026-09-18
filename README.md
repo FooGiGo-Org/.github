@@ -4,9 +4,8 @@ title: SCRB Matrix Organization
 ---
 block
     columns 3
-    block:test
+    block:test:3
         columns 3
-        uct("Department Managers")
         man["Department Managers"]:3
         man_elec man_mech man_soft
     end
