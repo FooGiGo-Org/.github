@@ -5,8 +5,7 @@ title: SCRB Matrix Organization
 flowchart LR
     PM
     SL
-    subgraph TD
-        direction TD
+    subgraph LR
         au_l
         ma_l
         pw_l
