@@ -23,4 +23,6 @@ block
         pw_elec_
         tc_elec_
     end
+class uct BT
+classDef BT stroke:transparent,fill:transparent
 ```
