@@ -6,6 +6,7 @@ block
     columns 3
     block:test
         columns 3
+        utc("Department Managers"]
         man["Department Managers"]:3
         man_elec man_mech man_soft
     end
