@@ -14,12 +14,12 @@ block
     tc_elec tc_mech tc_soft
     block:elec_mem
         columns 1
-        man_elec
-        ma_elec
-        au_elec
-        dr_elec
-        mf_elec
-        pw_elec
-        tc_elec
+        man_elec_
+        ma_elec_
+        au_elec_
+        dr_elec_
+        mf_elec_
+        pw_elec_
+        tc_elec_
     end
 ```
