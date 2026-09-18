@@ -5,8 +5,8 @@ title: SCRB Matrix Organization
 block
     columns 3
     block:test:3
-        man["Department Managers"]
         columns 3
+        man:3["Department Managers"]
         man_elec man_mech man_soft
     end
     block:meme:1
