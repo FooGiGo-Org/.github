@@ -12,4 +12,13 @@ block
     mf_elec mf_mech mf_soft
     pw_elec pw_mech pw_soft
     tc_elec tc_mech tc_soft
+    block:elec_mem
+        columns 1
+        man_elec
+        ma_elec
+        au_elec
+        dr_elec
+        mf_elec
+        pw_elec
+        tc_elec
 ```
