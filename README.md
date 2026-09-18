@@ -20,7 +20,7 @@ block
         pw_elec_
         tc_elec_
     end
-    block:meme:1
+    block:memm:1
         columns 1
         uct("test")
         man_mech_
@@ -31,7 +31,7 @@ block
         pw_mech_
         tc_mech_
     end
-    block:meme:1
+    block:mems:1
         columns 1
         uct("test")
         man_soft_
