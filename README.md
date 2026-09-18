@@ -5,7 +5,8 @@ config:
     themeVariables:
         treeView:
             labelColor: '#FF0000'
-            lineColor: '#FF0000'
+            lineColor: '#00FF00'
+            descriptionColor: '#0000FF'
 ---
 treeView-beta
     README.md ##The file which stores the content that you are currently reading
