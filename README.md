@@ -12,7 +12,7 @@ block
     mf_elec mf_mech mf_soft
     pw_elec pw_mech pw_soft
     tc_elec tc_mech tc_soft
-    block:elec_members("test")
+    block:meme
         columns 1
         uct("test")
         man_elec_
