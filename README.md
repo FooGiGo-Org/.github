@@ -3,7 +3,8 @@ This repository is represented by this tree:
 ---
 config:
     themeVariables:
-        labelColor: 'FF0000'
+        treeView:
+            labelColor: '#FF0000'
 ---
 treeView-beta
     README.md ##The file which stores the content that you are currently reading
