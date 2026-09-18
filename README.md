@@ -11,7 +11,6 @@ block
     end
     block:meme:1
         columns 1
-        uct("test")
         ma_elec_
         au_elec_
         dr_elec_
@@ -21,7 +20,6 @@ block
     end
     block:memm:1
         columns 1
-        uct("test")
         ma_mech_
         au_mech_
         dr_mech_
@@ -31,7 +29,6 @@ block
     end
     block:mems:1
         columns 1
-        uct("test")
         ma_soft_
         au_soft_
         dr_soft_
