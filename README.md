@@ -4,12 +4,12 @@ title: SCRB Matrix Organization
 ---
 block
     columns 3
-    block:test:3
+    block:test
         columns 3
         man["Department Managers"]:3
         man_elec man_mech man_soft
     end
-    space:3
+    space
     block:meme
         columns 1
         uct("test")
