@@ -6,6 +6,7 @@ block
     columns 3
     man["Department Managers"]:3
     man_elec man_mech man_soft
+    space:3
     block:meme
         columns 1
         uct("test")
