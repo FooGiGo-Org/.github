@@ -11,7 +11,7 @@ block
         man_elec man_mech man_soft
     end
     space
-    block:meme
+    block:meme:1
         columns 1
         uct("test")
         man_elec_
