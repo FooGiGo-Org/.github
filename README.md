@@ -2,7 +2,7 @@
 ---
 title: SCRB Matrix Organization
 ---
-block-beta
+block
     columns 3
     man["Department Managers"]:3
     man_elec man_mech man_soft
@@ -12,7 +12,7 @@ block-beta
     mf_elec mf_mech mf_soft
     pw_elec pw_mech pw_soft
     tc_elec tc_mech tc_soft
-    block:elec_mem:"Electrical Members"
+    block:GroupTitle:"Electrical Members"
         columns 1
         man_elec_
         ma_elec_
