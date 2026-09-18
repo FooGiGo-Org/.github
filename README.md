@@ -2,8 +2,7 @@
 ---
 title: SCRB Matrix Organization
 ---
-block
-    man["Department Managers"]
+block:man["Department Managers"]
     man_elec man_mech man_soft
 
 ```
