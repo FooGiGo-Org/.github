@@ -14,6 +14,7 @@ block
     tc_elec tc_mech tc_soft
     block:elec_members("test")
         columns 1
+        uct("test")
         man_elec_
         ma_elec_
         au_elec_
