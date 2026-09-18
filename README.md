@@ -4,8 +4,11 @@ title: SCRB Matrix Organization
 ---
 block
     columns 3
-    man["Department Managers"]:3
-    man_elec man_mech man_soft
+    block:test:3
+        %%columns auto (default)
+        man["Department Managers"]:3
+        man_elec man_mech man_soft
+    end
     space:3
     block:meme
         columns 1
