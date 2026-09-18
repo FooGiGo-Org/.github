@@ -6,6 +6,7 @@ flowchart LR
     PM
     SL
     subgraph TD
+        direction TD
         au_l
         ma_l
         pw_l
